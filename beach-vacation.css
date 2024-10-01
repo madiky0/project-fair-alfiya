@@ -3,6 +3,21 @@ body {
     margin: 0;
     font-family:cursive;
 }
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(178, 228, 234);
+    padding: 15px;
+  }
+  .menu a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(61, 160, 132);
+    font-weight: bold;
+  }
+  .menu a:hover{
+    text-decoration: underline;
+  }
 
 .hero {
     position: relative;
